@@ -3,12 +3,12 @@ Getting and Cleaning Data Course Project Code Book
 
 ## Background  
 The recent advances in technology and data science has ushered an exciting era of wearable computing. 
-With numerous sensors embedded on smartphones, smartwatches, music players and the like, an extensive amount of data can be collected.  
+With numerous sensors embedded on smartphones, smartwatches, music players and the like, an extensive amount of data can be collected. 
 This data can then be processed and analyzed, with the help of data science, and be used to predict what activity the user is currently engaged. 
 
 ## Source 
 Data used in this course project is part of a study entitled "*Human Activity Recognition Using Smartphones Data Set*" 
-by the team of Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Onet. 
+by the team of Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Onet.  
 Reference: [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  
   
 The study required 30 participants to perform 6 activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING) 
@@ -364,7 +364,8 @@ measurement along with the Subject ID and Activity Labels are required. The foll
     * Original name: fBodyBodyGyroJerkMag-meanFreq()
 	* Description: Normalized mean frequency for the change in subject's body body angular momentum magnitude due to jerk 
 
-### Significant effort was made to understand the technical definitions of the variables used in the original data set. However, due to insufficient domain knowledge of 
+## Note
+Significant effort was made to understand the technical definitions of the variables used in the original data set. However, due to insufficient domain knowledge of 
 the student on the actual study conducted, the definitions might not be highly accurate.
 	
 ## Citation  
